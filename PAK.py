@@ -113,9 +113,7 @@ x1b[1;92m")
         else:
             print "\033[1;93mWrong Password"
             os.system('xdg-open https://www.youtube.com/channel/UCyo6dFjHh_I1ftQ-a0Is2Aw?view_as=subscriber')
-    else:
-        print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCyo6dFjHh_I1ftQ-a0Is2Aw?view_as=subscriber')
+
 
 def login():
 	os.system('clear')
