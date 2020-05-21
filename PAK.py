@@ -110,10 +110,7 @@ x1b[1;92m")
             print "Logged in successfully as " + username #Dev:AHMAD_SANA_FAROOQ
 	    time.sleep(2)
             loop = 'false'
-        else:
-            print "\033[1;93mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCyo6dFjHh_I1ftQ-a0Is2Aw?view_as=subscriber')
-
+        
 
 def login():
 	os.system('clear')
